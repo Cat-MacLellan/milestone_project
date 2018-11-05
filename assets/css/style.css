@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:100,200,300,400,500,600,700');
+
+
+.hero-image {
+    background-image: url("../images/home/index-pic.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*----------------------------------------------heading*/
+
+header {
+    padding: 0px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+header img {
+    max-height: 70px;
+    margin: auto;
+}
+
+/*----------------------------------------------colours*/
+
+body {
+    background-color: #ff6347;
+}
+
+.bg-color-news {
+    background-color: #40e0d0;
+}
+
+
+/*----------------------------------------------special paddings, headings, etc*/
+
+h1,
+h2,
+h4{
+    font-family: "ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    font-family: "ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 20;
+    width: 350px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    
+}
+/*----------------------------------------------nav-bar*/
+
+#nav li {
+    padding: 0 15px;
+    float: left;
+    transition: all 2s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+#nav li a {
+    text-transform: uppercase;
+    font-family: "ubuntu", sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.home:hover {
+    background-color: #ff6347;
+}
+
+.news:hover {
+    background-color: #40e0d0;
+}
+
+.timeline:hover {
+    background-color: #00ff7f;
+}
+
+.photos:hover {
+    background-color: #ffff00;
+}
+
+.contact:hover {
+    background-color: #ee82ee;
+}
+
+
+/*----------------------------------------------social links*/
+
+.social-links li a i {
+    width: 25px;
+    height: 25px;
+    padding: 8px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: #000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.facebook a i:hover {
+    background-color: #ff6347;
+}
+
+.twitter a i:hover {
+    background-color: #40e0d0;
+}
+
+.spotify a i:hover {
+    background-color: #00ff7f;
+}
+
+.instagram a i:hover {
+    background-color: #ffff00;
+}
+
+.youtube a i:hover {
+    background-color: #ee82ee;
+}
+
+
+/*----------------------------------------------home page*/
+
+.band-memebers {
+    padding: 80px 120px;
+}
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.person:hover {
+    border-color: #8b0000;
+}
+
+
+/*----------------------------------------------footer*/
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    text-align: left;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+footer a {
+    color: red;
+    text-decoration: none;
+    transition: all 2s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+footer img {
+    max-height: 100px;
+    margin: 10px;
+    padding-right: 50px;
+    margin-right: 20px;
+}
+
+
+.footer-social-links li a i {
+    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 8px 6px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: left;
+    color: #000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+
+/*----------------------------------------------media queries*/
+
+@media screen and (min-width: 990px) {
+    #nav {
+        margin-top: calc(120px / 2);
+    }
+}
