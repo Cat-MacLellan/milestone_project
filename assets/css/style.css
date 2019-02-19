@@ -49,13 +49,11 @@ body {
 
 /*----------------------------------------------special paddings, headings, etc*/
 
-h1,
-h2,
-h5,
-h6 {
+h1
+{
     font-family: "ubuntu", sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 30px;
     color: red;
     text-decoration: none;
 }
@@ -206,6 +204,13 @@ a {
 }
 
 
+.tour p {
+    text-align: center;
+    font-family: "ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
 .person {
     border: 20px solid transparent;
     display: block;
@@ -266,6 +271,7 @@ a {
     margin-left: -3px;
 }
 
+/*
 .container {
     padding: 10px 40px;
     position: relative;
@@ -285,7 +291,7 @@ a {
     border-radius: 50%;
     z-index: 1;
 }
-
+*/
 
 .left {
     left: -25.5%;
@@ -423,7 +429,7 @@ footer img {
     background-color: #ffff00;
 }
 
-#footers .youtube a i:hover {
+#footer .youtube a i:hover {
     background-color: #ee82ee;
 }
 
