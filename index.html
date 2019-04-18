@@ -4,12 +4,10 @@
 <head>
     <title>The Monkees!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
@@ -36,11 +34,11 @@
                         <li><a class="contact" href="contact.html"><i class="fa fa-commenting-o" aria-hidden="true"></i>Contact</a></li>
                     </ul>
                     <ul class="list-inline social-links">
-                        <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="spotify"><a target="_blank" href="#"><i class="fa fa-spotify"></i></a></li>
-                        <li class="instagram"><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li class="youtube"><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li class="facebook"><a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a></li>
+                        <li class="twitter"><a target="_blank" href="https://twitter.com/themonkees?lang=en"><i class="fa fa-twitter"></i></a></li>
+                        <li class="spotify"><a target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="fa fa-spotify"></i></a></li>
+                        <li class="instagram"><a target="_blank" href="https://www.instagram.com/themonkees/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                        <li class="youtube"><a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -85,9 +83,9 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid index-section">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 banner">
+    <section class="container-fluid">
+        <div class="row banner">
+            <div class="col-sm-12 col-md-12 col-lg-12">
                 <img class="img-fluid float-none" alt="responsive image" src="../assets/images/news/banner.jpg">
             </div>
         </div>
@@ -128,8 +126,10 @@
 
             <div class="col-sm-4">
                 <h3>The Monkees Newsletter</h3>
-                <input type="email" class="form-control" placeholder="Email Address">
-                <button class="btn button" type="button">Subcribe</button>
+                <form>
+                <input class="form-control" id="news-email" placeholder="Email Address" type="email" required>
+                <button class="btn button" type="submit" href="#">Subcribe</button>
+                </form>
             </div>
 
             <div class="col-sm-4 social">
