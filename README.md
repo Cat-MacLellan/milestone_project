@@ -5,7 +5,6 @@ As my first milestrone project, I decided to take on the suggested idea of creat
 The Monkees were a playful, lively group and I wanted this to come through in this site in the images and colours used.
 The hero image used throughout the site shows the band memebers performing and captures each members characteristics.
 
-
 The aim for this site is for the user to be able to easily move arounnd each page and explore its simple but informative layout. 
 A user can go navigate their way easily around the website and find upcoming tour information, the band's latest news and also be 
 able to learn how they evolved as a band. I aimed to included a vaired selection of images and video clips to ensure the site is visually 
@@ -132,9 +131,24 @@ and an image carousel. All features are responsive and can be viewed on mobile, 
 
 ## Deployment 
 
+### Github pages
+- Find the website's repository here: 
+- In settings, find GitHub Pages
+- Change source in the dropdown menu to master branch 
+- Add in domain name
+- save and then open published web page. 
 
+### Creating a local copy
+- Find the website's repository here: 
+- under the repository name, click clone or download
+- Copy the repository URL
+- Open Git Bash
+- Change the location of the working directory to where the cloned one will be made
+- Type git clone and paste the directory URL
+- press enter
 
 ## Credits
+
 
 
 
