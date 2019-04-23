@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
 </head>
 
 
@@ -18,31 +18,31 @@
     <header>
         <div class="hero-image"></div>
         <div class="responsive-image"></div>
-    </header>
-    <nav>
-        <div class="container-fluid" id="navbar">
-            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">       
-            <i class="fa fa-bars"></i>
-        </button>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-left">
-                    <li><a class="home" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-                    <li><a class="news" href="news.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i>News</a></li>
-                    <li><a class="timeline" href="timeline.html"><i class="fa fa-clock-o"></i>Timeline</a></li>
-                    <li><a class="photos" href="photos.html"><i class="fa fa-camera-retro" aria-hidden="true"></i>Photos</a></li>
-                    <li><a class="contact" href="contact.html"><i class="fa fa-commenting-o" aria-hidden="true"></i>Contact</a></li>
-                </ul>
-                <ul class="list-inline social-links">
-                    <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="spotify"><a target="_blank" href="#"><i class="fa fa-spotify"></i></a></li>
-                    <li class="instagram"><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li class="youtube"><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
-                </ul>
+        <nav>
+            <div class="container-fluid" id="navbar">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">       
+                     <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a class="home" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                        <li><a class="news" href="news.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i>News</a></li>
+                        <li><a class="timeline" href="timeline.html"><i class="fa fa-clock-o"></i>Timeline</a></li>
+                        <li><a class="photos" href="photos.html"><i class="fa fa-camera-retro" aria-hidden="true"></i>Photos</a></li>
+                        <li><a class="contact" href="contact.html"><i class="fa fa-commenting-o" aria-hidden="true"></i>Contact</a></li>
+                    </ul>
+                    <ul class="list-inline social-links">
+                        <li class="facebook"><a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a></li>
+                        <li class="twitter"><a target="_blank" href="https://twitter.com/themonkees?lang=en"><i class="fa fa-twitter"></i></a></li>
+                        <li class="spotify"><a target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="fa fa-spotify"></i></a></li>
+                        <li class="instagram"><a target="_blank" href="https://www.instagram.com/themonkees/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                        <li class="youtube"><a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-
+        </nav>
+    </header>
+ 
     <section class="container-fluid">
         <h1 class="text-center">Contact the Monkees!</h1>
         <div class="row">
@@ -55,11 +55,9 @@
                         <input class="form-control" id="email" placeholder="email" type="email" required>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-sm-offset-3 col-md-6 form-group">
                     <textarea rows="5" name="comments" class="form-control" id="comments" placeholder="Comments" required></textarea>
                 </div>
-
                 <div class="col-md-12 contact-button">
                     <button type="submit" id="contact-btn" class="btn btn-secondary center-block">Send</button>
                 </div>
@@ -67,7 +65,7 @@
         </div>
     </section>
 
-    <footer class="container-fluid">
+     <footer class="container-fluid">
         <div id="footer" class="row">
             <div class="col-sm-4">
                 <h3><a href="contact.html" id="contact-link">Get In Contact!</a>
@@ -76,21 +74,21 @@
                     We are always up for monkee-ing about! Get in touch if you would like The Monkees to perform at your event.
                 </p>
             </div>
-
             <div class="col-sm-4">
                 <h3>The Monkees Newsletter</h3>
-                <input type="email" class="form-control" placeholder="Email Address" required>
-                <button class="btn button" type="button">Subcribe</button>
+                <form>
+                <input class="form-control" id="news-email" placeholder="Email Address" type="email" required>
+                <button class="btn button" type="submit" href="#">Subcribe</button>
+                </form>
             </div>
-
             <div class="col-sm-4 social">
                 <h3>The Monkees Online</h3>
                 <ul class="list-inline social-links">
-                    <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="spotify"><a target="_blank" href="#"><i class="fa fa-spotify"></i></a></li>
-                    <li class="instagram"><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li class="youtube"><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li class="facebook"><a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a></li>
+                    <li class="twitter"><a target="_blank" href="https://twitter.com/themonkees?lang=en"><i class="fa fa-twitter"></i></a></li>
+                    <li class="spotify"><a target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="fa fa-spotify"></i></a></li>
+                    <li class="instagram"><a target="_blank" href="https://www.instagram.com/themonkees/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                    <li class="youtube"><a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube"></i></a></li>
                 </ul>
             </div>
         </div>

@@ -1,37 +1,35 @@
 # The Monkees Band Website
 
-As my first milestrone project, I decided to take on the suggested idea of creating a static website for the famous musicians and TV start, The Monkees. 
+As my first milestone project, I decided to take on the suggested idea of creating a static website for the famous musicians and TV stars, The Monkees. 
 
-The Monkees were a playful, lively group and I wanted this to come through in this site in the images and colours used.
-The hero image used throughout the site shows the band memebers performing and captures each members characteristics.
+The Monkees were a playful, lively group and I wanted this to come through in this site in the styling of the webisite. The hero image used throughout the site shows 
+the band memebers performing and captures each members characteristics.
 
 The aim for this site is for the user to be able to easily move arounnd each page and explore its simple but informative layout. 
 A user can go navigate their way easily around the website and find upcoming tour information, the band's latest news and also be 
-able to learn how they evolved as a band. I aimed to included a vaired selection of images and video clips to ensure the site is visually 
+able to learn how The Monkees evolved as a band. I aimed to included a vaired selection of images and video clips to ensure the site is visually 
 interesting and that the user is continiously reminded of The Monkees image.  
 
 
 ## UX
 
-This is a static website with information about the band members nad their upcoming tour dates. A user can learn about the band's recent news and their history. 
-There is also the option for a user to send an enquiry to the band and to sign up to their newsletter. The site can be viewed here **Github Link**.
+This is a static website with information about the band members and their upcoming tour dates. A user can learn about the band's recent news and their history. 
+There is also the option for a user to send an enquiry to the band and to sign up to their newsletter. The site can be viewed here: https://github.com/Cat-MacLellan/milestone_project.
 
-The colours used throughout the site are warm, bright and complimenting, allowing text to be easy to read and any media to stand out on the page. The site is styled with
+The colours used throughout the site are warm and bright, allowing the text to be easy to read and any media to stand out on the page. The site is styled with
 Bootstrap and utiliazes different Bootstrap components. There is a responsive navigation bar which allows the user to explore the site easily. Other components include a hero image which is consitent throughout 
-the website, a timeline with media of the band to provide a visual way to learn about their past 
-and an image carousel. All features are responsive and can be viewed on mobile, tablet and desktop. 
+the website, a timeline with media of the band to provide a visual way to learn about their past and an image carousel. All features are responsive and can be viewed on mobile, tablet and desktop. 
 
 ### User Stories
 
-- As a user, I want to learn about the bands upcoming tour dates, check ticket availability and purchase tickets. Tour dates are displayed on the home page with 
-    clearly labeled sold out dates and how many ticket remaining for one which aren't. I can instantly see which dates are available by seeing the 'SOLD OUT' label next to one date in red and the 'BUY TICKETS' in green.
-    I can then click the buy tickets labeled which would take me to the 
-    ticket merchants webiste. 
+- As a user, I want to learn about the band's upcoming tour dates, check ticket availability and purchase tickets. Tour dates are displayed on the home page with 
+    clearly labeled sold out dates and how many tickets remaining for dates which aren't sold out. I can instantly see which dates are available by seeing the 'SOLD OUT' label next to one date in red and the 'BUY TICKETS' in green.
+    I can then click the buy tickets label which would take me to the ticket merchants webiste. 
 
 - As a user, I want to access The Monkees social media and Spotify sites. I can do so by clicking the well know social media logos in the navbar and footer. 
 
 - As a user, I want learn about the lastest new and events from the Monkees. To do so, I can select the 'news' item from the navbar where I can click on the most
-    recent article about the band in clearly displayed thumbnails. If I would like to explore further, I can select on 'older post' which would bring up previous articles.
+    recent article about the band in clearly displayed thumbnails. If I would like to explore further, I can select on 'older posts' which would bring up previous articles.
 
 - As a user, I want to learn about how the Monkees's past. I can select the 'timeline' item from the navbar and scroll down the timeline which logically starts at the 
     beginning of their career. I can watch the embedded videos without having to leave the website. 
@@ -51,13 +49,13 @@ and an image carousel. All features are responsive and can be viewed on mobile, 
 
 - Eye-catching hero image displaying the band with an alternative hero image for smaller screen use.
 - Colourful homepage.
-- links to social media in navigation bar and in footer. 
-- visual display of the number of tickets left for tour dates and the option to buy tickets. Also displaying dates that are sold out. 
+- Links to social media in navigation bar and in footer. 
+- Visual display of the number of tickets left for tour dates and the option to buy tickets. Also displaying dates that are sold out. 
 - Read more on the news articles and the option to view previous posts. 
-- Images and media in carousel and timeline. 
+- Images and videos in carousel and timeline. 
 - Contact form to send enquiries to the band. 
-- option to sign up to the bands newsletter in footer.
-- features are all responsive. 
+- Option to sign up to the bands newsletter in footer.
+- Features are all responsive. 
 
 ### Features Left To Implement
 
@@ -123,7 +121,7 @@ and an image carousel. All features are responsive and can be viewed on mobile, 
 ## Code and Brower Testing 
 - HTML and CSS validatiors used to check for syntax errors.
 - External users tested all features to ensure all working correctly. 
-- Tested on mobile, teblet and desktop devices to ensure full website is responsive. 
+- Tested on mobile, tablet and desktop devices to ensure full website is responsive. 
 - Browers tested:
     - Google Chrome
     - Safari
@@ -149,7 +147,43 @@ and an image carousel. All features are responsive and can be viewed on mobile, 
 
 ## Credits
 
+### Content
+- The content for the website can be found at https://www.monkees.com/ or https://en.wikipedia.org/wiki/The_Monkees.
+- The majority of the content is fictional.
 
+### Media 
+- Hero image source:
+    - https://www.tixsearcher.com/blog/this-day-in-music-history-november-30
+- Hero image source (Mobile):
+    - https://cellcode.us/quotes/all-monkees-mean-tv-show.html 
+- Index Page:
+    -   http://welteninwelten.blogspot.com/2012/03/no-one-here-gets-out-alive-183-davy.html
+    -   http://entertainment.time.com/2012/04/19/the-monkees-should-be-in-the-rock-and-roll-hall-of-fame-times-10-part-treatise/slide/micky-dolenzs-lyrical-talents/
+    -   https://kitchendecor.club/files/monkees-deluxe-head-edition.html
+    -   https://www.wallofcelebrities.com/celebrity/peter-tork/pictures/peter-tork_1485197.html
+-News Page:
+    - https://carlcafarelli.blogspot.com/2018/12/this-is-rock-n-roll-radio-955-20th.html
+    - https://airfreshener.club/quotes/you-me-monkees-told.html
+    - https://www.aarp.org/entertainment/music/info-2016/the-monkees-rock-band-good-times.html
+    - https://paramountny.com/shows/monkees-present-mike-nesmith-mickey-dolenz-show/
+- Photos Page:
+    - https://www.theguardian.com/music/2019/feb/21/peter-tork-obituary
+    - https://www.billboard.com/articles/news/502953/the-monkees-without-davy-jones-doesnt-seem-very-likely-says-peter-tork
+    - https://cometoverhollywood.com/2013/01/02/my-first-celebrity-crush-remembering-davy-jones/the-monkees-performing-on-television/
+    - https://www.billboard.com/articles/columns/rock/8499485/monkees-peter-tork-best-songs
+    - https://tv.avclub.com/the-monkees-broke-the-fourth-wall-of-1960s-tv-1798248271
+    - https://www.culturesonar.com/the-monkees-good-times/
+    - https://www.emmys.com/news/online-originals/hey-hey-its-monkees-50-part-ii
+- Timeline Videos:
+    - https://www.youtube.com/watch?v=96A0uyFWQHs
+    - https://www.youtube.com/watch?v=tMmM8TWvCzE
+    - https://www.youtube.com/watch?time_continue=2&v=PLN6yni3voE
+    - https://www.youtube.com/watch?time_continue=143&v=sayrnZKqONw
+    - https://www.youtube.com/watch?v=jnE6LSNPU3g
+
+### Aknowledgements 
+    - I recieved inspiration for this site from the official Monkees Website (https://www.monkees.com/) and other band sites inlcuding The Ramones 
+    (https://www.ramones.com/) and The Beatles (https://www.thebeatles.com/).
 
 
 
