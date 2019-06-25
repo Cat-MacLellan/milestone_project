@@ -161,6 +161,10 @@ h3 {
     border: none;
 }
 
+.news-thumbnail {
+    padding-top: 0px;
+}
+
 .fa-arrow-left {
     padding-bottom: 20px;
 }
@@ -494,5 +498,8 @@ textarea {
 @media screen and (min-width: 768px) {
     .carousel-indicators {
         bottom: 20%;
+    }
+    .news-thumbnail {
+        padding-top: 40px;
     }
 }
