@@ -53,7 +53,7 @@ h3 {
     color: #ffffff;
 }
 
-#posts-link a {
+.posts-link a {
     text-decoration: none;
     color: #f32e2ede;
 }
