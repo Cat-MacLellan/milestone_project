@@ -284,9 +284,9 @@ textarea {
 /*----------------------------------------------footer*/
 
 #footer {
-    padding-left: 20px;
+    padding: 0px 0px 20px 30px;
     text-decoration: none;
-    background-color: #f32e2ede;
+    background-color: #f32e2e;
 
 }
 
@@ -322,16 +322,17 @@ textarea {
     -o-transition: all 0.35s ease-in-out;
 }
 
-#footer .form-control {
-    width: 50%;
-    display: inline-block;
+.footer-button {
+    padding-top: 5px;
 }
 
 .button {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
-
+.form-control {
+    width: 80%;
+}
 /*----------------------------------------------media queries*/
 
 @media screen and (min-width: 992px) {
