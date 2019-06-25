@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
@@ -42,30 +42,27 @@
             </div>
         </nav>
     </header>
- 
+
     <section class="container-fluid">
         <h1 class="text-center">Contact the Monkees!</h1>
-        <div class="row">
-            <form action="contact.html">
-                <div class="col-md-12 center-form">
-                    <div class="col-sm-6 form-group">
-                        <input class="form-control" id="name" placeholder="name" type="text" required>
-                    </div>
-                    <div class="col-sm-6 form-group">
-                        <input class="form-control" id="email" placeholder="email" type="email" required>
-                    </div>
+            <form action="contact.html" class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    <input class="form-control" id="name" placeholder="name" type="text" required>
                 </div>
-                <div class="col-sm-6 col-sm-offset-3 col-md-6 form-group">
-                    <textarea rows="5" name="comments" class="form-control" id="comments" placeholder="Comments" required></textarea>
+                <div class="form-group">
+                    <input class="form-control" id="email" placeholder="email" type="email" required>
                 </div>
-                <div class="col-md-12 contact-button">
+
+                <div class="form-group">
+                    <textarea class="form-control" rows="5" id="comment" placeholder="comments"></textarea>
+                </div>
+                <div class="contact-button">
                     <button type="submit" id="contact-btn" class="btn btn-secondary center-block">Send</button>
                 </div>
             </form>
-        </div>
     </section>
 
-     <footer class="container-fluid">
+    <footer class="container-fluid">
         <div id="footer" class="row">
             <div class="col-sm-4">
                 <h3><a href="contact.html" id="contact-link">Get In Contact!</a>
@@ -77,8 +74,8 @@
             <div class="col-sm-4">
                 <h3>The Monkees Newsletter</h3>
                 <form>
-                <input class="form-control" id="news-email" placeholder="Email Address" type="email" required>
-                <button class="btn button" type="submit" href="#">Subcribe</button>
+                    <input class="form-control" id="news-email" placeholder="Email Address" type="email" required>
+                    <button class="btn button" type="submit" href="#">Subcribe</button>
                 </form>
             </div>
             <div class="col-sm-4 social">

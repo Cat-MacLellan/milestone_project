@@ -23,11 +23,8 @@
 
 /*----------------------------------------------colours*/
 
-body {
-    background-color: #ffffff;
-}
 
-.bg-color-news {
+/*.bg-color-news {
     background-color: #ffffff;
 }
 
@@ -41,7 +38,7 @@ body {
 
 .bg-color-contact {
     background-color: #ffffff;
-}
+}*/
 
 /*----------------------------------------------special paddings, headings, etc*/
 
@@ -71,8 +68,6 @@ h3 {
     color: #f32e2ede;
 }
 
-
-
 /*----------------------------------------------nav-bar*/
 
 .nav li {
@@ -95,19 +90,16 @@ h3 {
 
 #navbar {
     padding-left: 10px;
-    background-color: #f32e2ede;
+    background-color: #f32e2e;
     float: none;
     display: block;
     text-align: left;
 
 }
 
-#navbar .navbar-nav li :hover {
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
     background-color: #c4070b;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
 }
 
 #navbar .social-links {
@@ -121,31 +113,10 @@ h3 {
     text-decoration: none;
 }
 
-#navbar .social-links li a :hover {
-    background-color: #c4070b;
-
-
-}
-
-#navbar .social-links li a i {
-    width: 25px;
-    height: 25px;
-    padding: 8px 0;
-    border-radius: 50%;
-    font-size: 15px;
-    line-height: 7px;
-    text-align: center;
-    color: #fff;
-    position: bottom;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
 
 .fa-bars {
     color: #fff;
-}
+} 
 
 /*----------------------------------------------home page*/
 
@@ -304,6 +275,10 @@ h3 {
 
 .contact-button {
     padding-bottom: 20px;
+}
+
+textarea {
+  resize: vertical; 
 }
 
 /*----------------------------------------------footer*/
