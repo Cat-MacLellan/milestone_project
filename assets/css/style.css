@@ -43,7 +43,12 @@ h3 {
     line-height: 1.3;
 }
 
-#contact-link {
+.contact-link > h3 > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-link>li>span>a {
     text-decoration: none;
     color: #ffffff;
 }
@@ -99,7 +104,6 @@ h3 {
     text-decoration: none;
 }
 
-
 .fa-bars {
     color: #fff;
 }
@@ -127,7 +131,7 @@ h3 {
 }
 
 
-#band-members p {
+.band-members p {
     font-family: 'Raleway', sans-serif;
     font-size: 1.1em;
     color: #d70e12;
@@ -273,30 +277,30 @@ textarea {
 
 /*----------------------------------------------footer*/
 
-#footer {
+.footer {
     padding: 0px 0px 20px 30px;
     text-decoration: none;
     background-color: #f32e2e;
 
 }
 
-#footer p {
+.footer p {
     font-family: 'Raleway', sans-serif;
     font-size: 1.1em;
     color: #fff;
 }
 
-#footer .social-links {
+.footer .social-links {
     padding: 10px 20px 0px 0px;
 }
 
 
-#footer .social-links li a :hover {
+.footer .social-links li a :hover {
     background-color: #c4070b;
     transition-duration: 0.5s ease-in-out;
 }
 
-#footer .social-links li a i {
+.footer .social-links li a i {
     width: 25px;
     height: 25px;
     padding: 10px 6px;
@@ -320,11 +324,12 @@ textarea {
     background-color: #ffffff;
 }
 
-#footer .form-control {
+.footer .form-control {
     width: 80%;
 }
 
 /*----------------------------------------------media queries*/
+
 @media screen and (min-width: 600px) {
     .hero-image {
         display: block;
@@ -499,9 +504,3 @@ textarea {
         float: right;
     }
 }
-
-
-
-
-
-
