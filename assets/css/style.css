@@ -21,37 +21,22 @@
     display: block;
 }
 
-/*----------------------------------------------colours*/
-
-
-/*.bg-color-news {
-    background-color: #ffffff;
-}
-
-.bg-color-timeline {
-    background-color: #ffffff;
-}
-
-.bg-color-photos {
-    background-color: #ffffff;
-}
-
-.bg-color-contact {
-    background-color: #ffffff;
-}*/
-
 /*----------------------------------------------special paddings, headings, etc*/
 
 h1 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 50px;
-    color: #f32e2ede;
+    color: #f32e2e;
     padding: 10px 10px;
 }
 
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #f32e2e;
+}
+
 h3 {
-    font-family: 'Raleway', sans-serif;
     font-size: 2rem;
     font-weight: 500;
     color: #fff;
@@ -97,7 +82,8 @@ h3 {
 
 }
 
-.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
     background-color: #c4070b;
     transition: 0.35s ease-in-out;
 }
@@ -116,7 +102,7 @@ h3 {
 
 .fa-bars {
     color: #fff;
-} 
+}
 
 /*----------------------------------------------home page*/
 
@@ -278,7 +264,7 @@ h3 {
 }
 
 textarea {
-  resize: vertical; 
+    resize: vertical;
 }
 
 /*----------------------------------------------footer*/
@@ -330,9 +316,10 @@ textarea {
     background-color: #ffffff;
 }
 
-.form-control {
+#footer .form-control {
     width: 80%;
 }
+
 /*----------------------------------------------media queries*/
 
 @media screen and (min-width: 992px) {
