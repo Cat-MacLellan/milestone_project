@@ -4,10 +4,10 @@ As my first milestone project, I decided to take on the suggested idea of creati
 
 The Monkees were a playful, lively group and I wanted this to come through in this site in the styling of the webisite. The hero image used throughout the site shows 
 the band memebers performing and captures each members characteristics.
-
+ 
 The aim for this site is for the user to be able to easily move arounnd each page and explore its simple but informative layout. 
 A user can go navigate their way easily around the website and find upcoming tour information, the band's latest news and also be 
-able to learn how The Monkees evolved as a band. I aimed to included a vaired selection of images and video clips to ensure the site is visually 
+able to learn how The Monkees evolved as a band. I aimed to include a vaired selection of images and video clips to ensure the site is visually 
 interesting and that the user is continiously reminded of The Monkees image.  
 
 
@@ -70,8 +70,6 @@ the website, a timeline with media of the band to provide a visual way to learn 
 - **HTML**, **CSS**, **JQuery**
 - [Bootstrap](http://getbootstrap.com/)
 - Used for styling, conponents and buliding a responsive layout. 
-- [JQuery](https://jquery.com)
-- Used to create a responsive navigation bar. 
 - [Google Fonts](https://fonts.google.com/)
 - Used for webiste font. 
 - [Font Awesome](https://fontawesome.com/)
@@ -130,7 +128,7 @@ the website, a timeline with media of the band to provide a visual way to learn 
 ## Deployment 
 
 ### Github pages
-- Find the website's repository here: 
+- Find the website's repository here: https://github.com/Cat-MacLellan/milestone_project.
 - In settings, find GitHub Pages
 - Change source in the dropdown menu to master branch 
 - Add in domain name
